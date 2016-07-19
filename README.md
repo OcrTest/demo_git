@@ -1,2 +1,4 @@
 # demo_git
-test git
+
+Contenu de ce repository :
+- fichier readme.md : description du contenu.
