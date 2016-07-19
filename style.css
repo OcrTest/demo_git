@@ -1,0 +1,224 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'police1';
+    src: url('annexes/ballpark.eot');
+    src: url('annexes/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('annexes/ballpark.woff') format('woff'),
+         url('annexes/ballpark.ttf') format('truetype'),
+         url('annexes/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Police2';
+    src: url('annexes/dayrom.eot');
+    src: url('annexes/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('annexes/dayrom.woff') format('woff'),
+         url('annexes/dayrom.ttf') format('truetype'),
+         url('annexes/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+    background: url('annexes/fond.png');
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #01F;
+}
+
+#completePage
+{
+    width: 95%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+}
+
+header
+{
+    width:95%;
+    display:flex;
+    flex-direction: :row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0px;
+    height:110px;
+    border-bottom: 2px groove blue;
+    align-items: flex-end;
+    background: url('annexes/fond.png');
+}
+
+header div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1, header p
+{
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+#enteteLogo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header img
+{
+    width: 94px;
+    height: 85px;
+}
+
+header nav li
+{
+    display:inline;
+    align-content: left;
+}
+
+/* footer */
+footer
+{
+    width:95%;
+    display:flex;
+    flex-direction: :row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    bottom: 0px;
+    height:10%px;
+    max-height:110px;
+    border-top: 2px groove blue;
+    align-items: flex-end;
+    background: url('annexes/fond.png');
+}
+
+footer div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1, footer p
+{
+    margin-bottom:0px;
+    margin-top:0px;
+    font-size: 16px;
+}
+
+#footerNote figure
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer img
+{
+    width: 50px;
+    height: 50;
+    margin-right: 2px;
+}
+
+footer h1
+{
+    text-align: center;
+}
+#footerInfoLégales div
+{
+    display:flex;
+    flex-direction: row;
+}
+
+/* corps */
+
+#corps
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 110px;
+    padding-bottom : 110px;
+    
+}
+
+#plan ol
+{
+    padding-right: 10px;
+    padding-left: 5%;
+}
+
+#plan a
+{
+    text-decoration: none;
+}
+
+#contenu
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height : 80%;
+    max-height: 600px;
+    overflow:auto;
+}
+
+article{
+    width :69%;
+    padding-left: 1%;
+    overflow:auto;
+    height:80%;
+    
+}
+
+#lesAside
+{
+    display:flex;
+    flex-direction: column;
+    width:28%;
+    padding-left: 2%;
+}
+
+aside
+{
+    border: dotted 1px blue;
+}
+
+h1
+{
+    font-family: Dayrom, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:0px;
+    }
+
+h2
+{
+    font-family: Dayrom, serif;
+    font-weight: normal
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+
+/* section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+} */
